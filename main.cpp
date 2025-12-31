@@ -19,7 +19,7 @@ int main()
     auto system = &Registrar::singleton;
 
     system().initialize();
-
+    system().initialize();
     // Simulate some students erolls in some courses
     system().studentEnrollsInCourse("S001", "CS101");
     system().studentEnrollsInCourse("S001", "CS201");
